@@ -28,6 +28,8 @@ FOUNDATION_EXPORT const unsigned char JSQMessagesFrameworkVersionString[];
 #import "JSQMessagesLoadEarlierHeaderView.h"
 
 //  Layout
+#import "JSQMessagesBubbleSizeCalculating.h"
+#import "JSQMessagesBubblesSizeCalculator.h"
 #import "JSQMessagesCollectionViewFlowLayout.h"
 #import "JSQMessagesCollectionViewLayoutAttributes.h"
 #import "JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
@@ -39,7 +41,7 @@ FOUNDATION_EXPORT const unsigned char JSQMessagesFrameworkVersionString[];
 
 //  Model
 #import "JSQMessage.h"
-
+#import "JSQAudioMediaItem.h"
 #import "JSQMediaItem.h"
 #import "JSQPhotoMediaItem.h"
 #import "JSQLocationMediaItem.h"
@@ -47,6 +49,8 @@ FOUNDATION_EXPORT const unsigned char JSQMessagesFrameworkVersionString[];
 
 #import "JSQMessagesBubbleImage.h"
 #import "JSQMessagesAvatarImage.h"
+
+#import "JSQAudioMediaViewAttributes.h"
 
 //  Protocols
 #import "JSQMessageData.h"
@@ -69,3 +73,4 @@ FOUNDATION_EXPORT const unsigned char JSQMessagesFrameworkVersionString[];
 #import "UIColor+JSQMessages.h"
 #import "UIImage+JSQMessages.h"
 #import "UIView+JSQMessages.h"
+#import "NSBundle+JSQMessages.h"
